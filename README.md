@@ -16,7 +16,7 @@
   npm install
   ```
   ## Usage
-  Make sure to install dependencies before using. This application is also deployed on Heroku
+  Make sure to install dependencies before using. This application is also deployed on Heroku: https://serene-thicket-90319.herokuapp.com/
   ## Contribution
   Just fork the project and make a pull request. 
   ## Tests
