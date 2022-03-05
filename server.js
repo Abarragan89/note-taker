@@ -1,13 +1,11 @@
 "use strict";
+// make express object and initialize
+const express = require('express');
 // this file will read the index.js in each folder. 
 const htmlRoutes = require('./routes/htmlRoutes');
 const apiRoutes = require('./routes/apiRoutes')
 
-// make express object and initialize
-const express = require('express');
 const app = express();
-// import data and make PORT
-const { notes } = require('./db/db.json')
 const PORT = process.env.PORT || 3000;
 
 // parse incoming / outgoing JSON data
